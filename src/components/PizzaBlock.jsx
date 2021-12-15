@@ -1,5 +1,6 @@
 import React from "react";
 import classNames from "classnames";
+import PropTypes from "prop-types";
 
 function PizzaBlock({ name, price, imageUrl, types, sizes }) {
   const availableTypes = ["тонкое", "традиционное"];
@@ -43,7 +44,7 @@ function PizzaBlock({ name, price, imageUrl, types, sizes }) {
                 disabled: !sizes.includes(size),
               })}
             >
-              {size}
+              {size} см.
             </li>
           ))}
         </ul>
@@ -70,5 +71,22 @@ function PizzaBlock({ name, price, imageUrl, types, sizes }) {
     </div>
   );
 }
+
+PizzaBlock.propTypes = {
+  name: PropTypes.string.isRequired,
+  imageUrl: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  types: PropTypes.arrayOf(PropTypes.number).isRequired,
+  sizes: PropTypes.arrayOf(PropTypes.number).isRequired,
+};
+
+PizzaBlock.defaultProps = {
+  name: "----",
+  types: [],
+  sizes: [],
+  price: 0,
+  imageUrl:
+    "https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png",
+};
 
 export default PizzaBlock;
