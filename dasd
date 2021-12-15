@@ -1,0 +1,35 @@
+[33mcommit a7eaed93322fee0961db7a89c0574089781c57b0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: misha <mishabelous11@gmail.com>
+Date:   Fri Dec 3 20:16:59 2021 +0200
+
+    pizzas added
+
+[33mcommit 4f8c0cd0c13f0a65a6ec4323015db081f1521c1e[m
+Author: misha <mishabelous11@gmail.com>
+Date:   Fri Nov 26 20:15:10 2021 +0200
+
+    react router has been inplemented
+
+[33mcommit 5976ac3ee1ac48cce11b0c831d42e5c21b004531[m
+Author: Quiincy <mishabelous11@gmail.com>
+Date:   Fri Nov 26 18:06:02 2021 +0200
+
+    2nd commit
+
+[33mcommit 6a3709b43e5a1b1667f28c62c4595f2383368d82[m
+Author: misha <mishabelous11@gmail.com>
+Date:   Sat Nov 20 21:15:36 2021 +0200
+
+    second commit
+
+[33mcommit 1cb29e494a8ebc77b45e153981282e5e3d00a6f9[m
+Author: misha <mishabelous11@gmail.com>
+Date:   Tue Nov 9 12:52:55 2021 +0200
+
+    2nd commit
+
+[33mcommit c77a10487487a3a95ea158eb35218215c014a30b[m
+Author: misha <mishabelous11@gmail.com>
+Date:   Tue Nov 9 12:04:54 2021 +0200
+
+    Initialize project using Create React App
